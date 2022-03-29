@@ -17,7 +17,27 @@ class NewUserRequest():
 
     """Common python practice is to avoid creating setters and getters unless
     they offer additional functionality beyond a traditional setter or
-    getter."""
+    getter.
+
+    If needed, create using Python property decorators.  Example of class with
+    setter and getter in Python:
+
+        class Foo(object):
+
+        def __init__(self):
+            self._something = 0
+
+        @property
+        def something(self):
+            # other stuff happening here
+            return self._something
+
+        @something.setter
+        def something(self, value):
+            # other stuff happening here
+            self._something = value
+
+    """
 
     """setters"""
 
