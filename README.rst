@@ -75,7 +75,7 @@ Components
 ----------
 
 NewUserRequest:
-- The selection of values submitted my management to create a new user.
+- The selection of values submitted by management to create a new user.
 
 UserAccount:
 - Everything (data) that’s contained in a user account in AD, Office365, and
