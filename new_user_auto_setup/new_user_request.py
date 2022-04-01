@@ -1,3 +1,6 @@
+import json
+
+
 class NewUserRequest():
     """The selection of values submitted by management to create a new user."""
 
@@ -44,3 +47,6 @@ class NewUserRequest():
     """getters"""
 
     """other functions"""
+    # print will return object attributes as a valid JSON string
+    def __str__(self) -> str:
+        return json.dumps(self.__dict__)
