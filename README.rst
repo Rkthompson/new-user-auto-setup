@@ -62,9 +62,9 @@ Proposed Tech
 
     #. Virtualization of server running OS, Database, and Application.
     #. Dev setup running on Oracle VirtualBox.  Image created as a VMDK for production
-deployment to Veeam vSphere
+       deployment to Veeam vSphere
     #. Linux Ubuntu Server (stable, reliable and capable of hosting all elements in a
-single location)
+       single location)
     #. MongoDB database (reduced architecture and maintenance needed compared to SQL)
     #. Python 3.8 (strong community support and library features for network code)
     #. PowerShell (further connection options for Microsoft products)
