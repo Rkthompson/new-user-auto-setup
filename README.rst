@@ -89,7 +89,8 @@ What time is it now?
 
 StandardConnection:
 - Do you want to connect to a server, system, or service?  Read access?
-Write access?
+Write access?  Goal is to create a class that accepts RESTful verbs to
+perform CRUD operations.  
 
 StandardEmail:
 - Want to search for an email? Want to open an email?  Want to get its
