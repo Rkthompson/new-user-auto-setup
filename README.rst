@@ -93,7 +93,6 @@ Write access?  Goal is to create a class that accepts RESTful verbs to
 perform CRUD operations.
 ============== ============== 
  HTTP Verb      CRUD        
-============== ==============
  POST           Create      
  GET            Read        
  PUT            Update/     
