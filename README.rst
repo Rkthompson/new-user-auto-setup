@@ -74,13 +74,13 @@ Proposed Tech
 
 Proposed Architecture
 ---------------------
-Presentation Layer - Human interfaces
-Business Logic - Business rules and workflows
-Database Layer - Interaction with data stores
+    - Presentation Layer - Human interfaces
+    - Business Logic - Business rules and workflows
+    - Database Layer - Interaction with data stores
 
-Types of modules
-High-level - Business or domain specific 
-Low-level - Tech specific
+Types of modules:
+    - High-level - Business or domain specific 
+    - Low-level - Tech specific
 
 Goal to maintain levels of abstraction between high-level and low-level modules.
 
