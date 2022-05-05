@@ -88,18 +88,18 @@ Components
 ----------
 
 NewUserRequest:
-- The selection of values submitted by management to create a new user.
+    - The selection of values submitted by management to create a new user.
 
 UserAccount:
-- Everything (data) that’s contained in a user account in AD, Office365, and
+    - Everything (data) that’s contained in a user account in AD, Office365, and
 other systems.
 
 ApplicationTimeClock:
-- When did we first run?  When did we last run?  How often are we to run?
+    - When did we first run?  When did we last run?  How often are we to run?
 What time is it now?
 
 StandardConnection:
-- Do you want to connect to a server, system, or service?  Read access?
+    - Do you want to connect to a server, system, or service?  Read access?
 Write access?  Goal is to create a class that accepts RESTful verbs to
 perform CRUD operations.
 
