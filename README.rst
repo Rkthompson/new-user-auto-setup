@@ -76,6 +76,7 @@ Proposed Architecture
 ---------------------
     - Presentation Layer - Human interfaces
     - Business Logic - Business rules and workflows
+        - Goal to keep business logic from spreading to other layers.  Isolate it to keep it easy to identify and maintain.
     - Database Layer - Interaction with data stores
 
     Types of modules:
