@@ -79,7 +79,7 @@ Proposed Architecture
     - Database Layer - Interaction with data stores
 
     Types of modules:
-        - Goal to maintain levels of abstraction between high-level and low-level modules.
+        - Goal to maintain abstraction between high-level and low-level modules (changes to one should not impact the other).
         - High-level - Business or domain specific 
         - Low-level - Tech specific
 
