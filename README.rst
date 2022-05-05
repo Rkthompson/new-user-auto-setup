@@ -78,10 +78,10 @@ Proposed Architecture
     - Business Logic - Business rules and workflows
     - Database Layer - Interaction with data stores
 
-Types of modules:
-    - Goal to maintain levels of abstraction between high-level and low-level modules.
-    - High-level - Business or domain specific 
-    - Low-level - Tech specific
+    Types of modules:
+        - Goal to maintain levels of abstraction between high-level and low-level modules.
+        - High-level - Business or domain specific 
+        - Low-level - Tech specific
 
 Components
 ----------
