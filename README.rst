@@ -92,16 +92,16 @@ NewUserRequest:
 
 UserAccount:
     - Everything (data) that’s contained in a user account in AD, Office365, and
-other systems.
+    other systems.
 
 ApplicationTimeClock:
     - When did we first run?  When did we last run?  How often are we to run?
-What time is it now?
+    What time is it now?
 
 StandardConnection:
     - Do you want to connect to a server, system, or service?  Read access?
-Write access?  Goal is to create a class that accepts RESTful verbs to
-perform CRUD operations.
+    Write access?  Goal is to create a class that accepts RESTful verbs to
+    perform CRUD operations.
 
 ============== ==============
  HTTP Verb      CRUD        
