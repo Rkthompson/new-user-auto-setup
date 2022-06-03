@@ -65,10 +65,11 @@ Proposed Tech
        deployment to Veeam vSphere
     #. Linux Ubuntu Server (stable, reliable and capable of hosting all elements in a
        single location)
-    #. MongoDB database (reduced architecture and maintenance needed compared to SQL)
+    #. SQL with SQLAlchemy ORM (Strong ORM support for future use cases in Office 365)
     #. Python 3.8 (strong community support and library features for network code)
     #. PowerShell (further connection options for Microsoft products)
-    #. Django/Jinja2 (HTML templating)
+    #. Jinja2 (HTML templating)
+    #. Flask (A less rigied framework compared to Django for use with an ORM)
     #. Microsoft Graph API (RESTful api for interacting with MS 365 cloud data)
     #. OAuth 2.0 and OpenID Connect (Authorization and authentication)
 
