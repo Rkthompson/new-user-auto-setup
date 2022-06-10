@@ -65,7 +65,7 @@ Proposed Tech
        deployment to Veeam vSphere
     #. Linux Ubuntu Server (stable, reliable and capable of hosting all elements in a
        single location)
-    #. SQL with SQLAlchemy ORM (Strong ORM support for future use cases in Office 365)
+    #. PostgreSQL with SQLAlchemy ORM (Strong ORM support for future use cases in Office 365)
     #. Python 3.8 (strong community support and library features for network code)
     #. PowerShell (further connection options for Microsoft products)
     #. Jinja2 (HTML templating)
